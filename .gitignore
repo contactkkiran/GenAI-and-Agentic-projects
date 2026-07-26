@@ -1,4 +1,25 @@
-.env
-.env
-*.env
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Chroma DB
+chroma_store/
+data/db/
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+
+__pycache__/
+*.pyc
+venv/
+chroma_store/
 .env

@@ -1,0 +1,25 @@
+customer-support-llm/
+│
+├── backend/
+│   ├── app.py              # FastAPI backend entry point
+│   ├── routes/             # API routes (chat, health check)
+│   ├── services/           # Business logic (LLM, KB retrieval)
+│   ├── models/             # Data models (requests, responses)
+│   └── utils/              # Helper functions (logging, config)
+│
+├── knowledge_base/
+│   ├── faqs/               # FAQ documents
+│   ├── manuals/            # Product manuals
+│   ├── policies/           # Company policies
+│   └── embeddings/         # Vectorized KB data
+│
+├── frontend/
+│   ├── index.html          # Simple chat UI
+│   ├── styles.css          # Styling
+│   └── app.js              # Frontend logic
+│
+├── tests/
+│   └── test_app.py         # Unit tests for backend
+│
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation

@@ -65,3 +65,24 @@ pip install langchain langchain-openai chromadb
 pip install PyMuPDF
 
 pip install langchain langchain-community langchain-openai
+
+
+To debug this project
+# Debug the package module (recommended)
+update .vscode launch.json from your project wait
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach: debugpy (port 5678)",
+            "type": "python",
+            "request": "attach",
+            "connect": { "host": "localhost", "port": 5678 },
+            "justMyC ode": false
+        }
+    ]
+}
+save and in VS code termial run
+cd "/Users/kirankumar/Documents/Gen AI - Agentic AI + RAG — mastery roadmap/GenAI Developer Program/Rag/production-rag" && PYTHONPATH="${PWD}" /usr/bin/env /opt/anaconda3/bin/python -m debugpy --listen 5678 --wait-for-client -m app.services.rag_service
+and start debug from VS Code menu > Run
