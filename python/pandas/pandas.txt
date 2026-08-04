@@ -1,0 +1,28 @@
+Absolutely. Since you're targeting Enterprise AI, RAG, ML, and Applied AI, I'll teach Pandas from scratch, but only the parts you'll actually use in real-world AI projects.
+We'll go slowly and build practical skills.
+Pandas Learning Roadmap
+Module 1 : Introduction to Pandas
+Module 2 : Series
+Module 3 : DataFrame
+Module 4 : Reading Data
+Module 5 : Selecting Data
+Module 6 : Filtering
+Module 7 : Updating Data
+Module 8 : Handling Missing Values
+Module 9 : Group By
+Module 10: Sorting
+Module 11: Merge & Join
+Module 12: Aggregations
+Module 13: Apply Functions
+Module 14: Working with Dates
+Module 15: Text Processing
+Module 16: AI Dataset Preprocessing
+Module 17: Production Data Cleaning
+Module 18: Mini Enterprise Project
+What is Pandas?
+Pandas is Python's most popular library for working with structured data.
+Think of it as an Excel spreadsheet inside Python.
+Example Excel:
+Name	Age	City
+Alice	25	London
+Bob	30	Paris

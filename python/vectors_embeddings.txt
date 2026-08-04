@@ -507,6 +507,5 @@
 #  ↓
 # AI Response
 
-from narwhals import Implementation
 
 # Implementation with claude
