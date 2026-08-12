@@ -398,3 +398,8 @@ So in `[\w.-]`, the pattern can match:
 - `john-smith` (hyphen)
 
 This regex is a great first one to master — the same building blocks (`\b`, character sets, `+`, escaped literals) show up repeatedly when building PII guardrails.
+
+### Gaurdrail Factory approach - best design
+
+
+![Guardrail Factory — centralized guardrail orchestration diagram](./guardrail-factory-infographic.png)
