@@ -55,7 +55,7 @@ what information it is allowed to reveal
 which customer data is private
 which answers must be based on your documents
 which actions require authorization
-whether an answer is factually correct
+whether an answer is factually correct.
 
 So we add controls around it.
 
