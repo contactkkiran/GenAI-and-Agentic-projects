@@ -62,9 +62,9 @@ So we add controls around it.
 For an enterprise RAG system, for example:
 
 
-                ┌─────────────────┐
-User ──────────►│ Input Guardrail  │
-                └────────┬────────┘
+                
+User ──────────►Input Guardrail  
+                
                          ↓
                     Retriever
                          ↓
@@ -72,9 +72,8 @@ User ──────────►│ Input Guardrail  │
                          ↓
                        LLM
                          ↓
-                ┌─────────────────┐
-                │Output Guardrail │
-                └────────┬────────┘
+                Output Guardrail 
+                
                          ↓
                        User
                        
