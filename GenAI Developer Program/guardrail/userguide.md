@@ -61,6 +61,7 @@ So we add controls around it.
 
 For an enterprise RAG system, for example:
 
+
                 ┌─────────────────┐
 User ──────────►│ Input Guardrail  │
                 └────────┬────────┘
@@ -76,6 +77,7 @@ User ──────────►│ Input Guardrail  │
                 └────────┬────────┘
                          ↓
                        User
+                       
 3. The most important concept
 
 There are two major categories to remember initially.
