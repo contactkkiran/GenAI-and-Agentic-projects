@@ -1,7 +1,6 @@
 # 🛡️ LLM Guardrails — From Scratch
 
-![Guardrail Factory — centralized guardrail orchestration diagram](./guardrail-factory-infographic.png)
-
+s
 > Forget frameworks like Guardrails AI, NeMo Guardrails, or LangChain for now.
 > We'll understand the **concept** first, then implement it ourselves.
 
