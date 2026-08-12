@@ -2,9 +2,13 @@
 
 🛡️ LLM Guardrails — From Scratch
 
+------------------------
+
 First, forget frameworks like Guardrails AI, NeMo Guardrails, LangChain, etc.
 
 We will understand the concept first, then implement it ourselves.
+
+------------------------
 
 1. What is an LLM Guardrail?
 
@@ -44,6 +48,8 @@ Input Guardrail
 
 The LLM may never even receive the request.
 
+------------------------
+
 2. Why do we need Guardrails?
 
 An LLM is fundamentally a probabilistic text generator.
@@ -76,6 +82,8 @@ User ──────────►Input Guardrail
                          ↓
                        User
 
+------------------------
+
 3. The most important concept
 
 There are two major categories to remember initially.
@@ -96,6 +104,7 @@ Input Guardrail
        ↓
 
 🚫 Block / modify / classify
+
 Output Guardrails
 
 Control what comes out of the LLM.
@@ -115,6 +124,8 @@ So remember:
 Input guardrail = protect the LLM/application from the user.
 
 Output guardrail = protect the user/company from the LLM.
+
+------------------------
 
 4. Guardrails are NOT just prompt engineering
 
@@ -155,6 +166,8 @@ A proper architecture puts an external control layer around the model.
 
 That's much stronger.
 
+------------------------
+
 5. What can a Guardrail check?
 
 Eventually you'll encounter things like:
@@ -167,6 +180,7 @@ PII
 Unauthorized requests
 Off-topic questions
 Malicious instructions
+
 Output
 PII leakage
 Toxic content
@@ -179,6 +193,8 @@ Incorrect format
 For now, don't try to learn all of these.
 
 We'll build them one by one.
+
+------------------------
 
 6. First practical example
 
