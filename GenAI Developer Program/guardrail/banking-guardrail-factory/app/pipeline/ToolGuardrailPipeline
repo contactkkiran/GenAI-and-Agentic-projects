@@ -1,0 +1,27 @@
+from app.guards.tool.authorization_guard import AuthorizationGuard
+from app.tools.balance_tool import BalanceTool
+
+
+class ToolGuardrailPipeline:
+
+    def __init__(self):
+        self.authorization_guard = AuthorizationGuard()
+        self.balance_tool = BalanceTool()
+
+    def get_balance(self, user_id: str, account_id: str):
+
+        # 1. Authorization check FIRST
+        result = self.authorization_guard.check_account_access(
+            user_id=user_id, account_id=account_id
+        )
+
+        print(f"[{result.guardrail}] " f"{'PASS' if result.allowed else 'BLOCK'}")
+
+        # 2. Stop if authorization fails
+        if not result.allowed:
+            return result
+
+        # 3. Call banking tool only after authorization passes
+        balance = self.balance_tool.get_balance(account_id)
+
+        return {"allowed": True, "account_id": account_id, "balance": balance}

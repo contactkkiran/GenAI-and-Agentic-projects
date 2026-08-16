@@ -1,0 +1,33 @@
+guards:
+  input:
+    pii_guard:
+      enabled: true
+    injection_guard:
+      enabled: true
+    toxicity_guard:
+      enabled: true
+    policy_guard:
+      enabled: true
+  retrieval:
+    relevance_guard:
+      enabled: true
+    authorization_guard:
+      enabled: true
+    data_filter_guard:
+      enabled: true
+  tool:
+    tool_authorization_guard:
+      enabled: true
+    parameter_guard:
+      enabled: true
+    transaction_guard:
+      enabled: true
+  output:
+    pii_guard:
+      enabled: true
+    hallucination_guard:
+      enabled: true
+    grounding_guard:
+      enabled: true
+    policy_guard:
+      enabled: true
